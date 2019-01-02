@@ -1,20 +1,103 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700');
+
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
+	width: 1050px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 1px 45px 75px;
 }
 
-/* Write all remaining styles here */
+#header {
+	color: #98ada6;
+	font: bold 4.6em/.2em "Libre Baskerville:700";
+}
+
+.sub-header {
+	font: bold 1.7em/1.5em Georgia;
+	color: #6f7f7a;
+}
+
+p {
+	color: #555555;
+}
+
+.add-height-to-header {
+	line-height: 1.7em;
+}
+
+footer {
+	position: relative;
+	float: right;
+	right: 0;
+	bottom: 0;
+	color: #555555;
+	font-size: .80em;
+	line-height: 4em;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*////////// LINKS //////////*/
+
+section#about a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+section#about a:hover{
+	text-decoration: underline;
+}
+
+header h1#header a {
+	color: #98ada6;
+	text-decoration: none;
+}
+
+header h1#header a:hover {
+	color: #6f7f7a;
+	text-decoration: none;
+}
+
+
+
+/*////////// IMAGES, AUDIO, MEDIA //////////*/
+
+#about img {
+	width: 100%;
+	height: auto;
+	border: 5px solid #98ada6;
+}
+
+#press img {
+	width: 24.6%;
+	height: auto;
+	border: 5px solid #cccccc;
+}
+
+a:visited {
+	color: #98ada6;
+}
+
+a:hover {
+	color: #6f7f7a;
+}
+
+#press img:hover {
+	border: 5px solid #6f7f7a
+}
