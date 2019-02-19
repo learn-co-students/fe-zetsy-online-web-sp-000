@@ -1,20 +1,68 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: "Baskerville Semibold Italic";
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
+
+header {
+	padding: 0;
+	border-bottom: 1px solid rgb(158 171 167);
+}
+
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
+	margin: auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px 45px 45px;
+}
+
+#logo {
+	font-family: 'Baskerville Semibold Italic';
+	font-size: 500%;
+	color: rgb(153 173 166);
+	margin: 0 0 10px 0;
+}
+
+#featured-product {
+	margin-top: 5px;
+	border: 5px solid rgb(153 173 166);
+}
+
+.header-text {
+	font-size: 200%;
+	color: rgb(153 173 166);
+}
+
+.content-text {
+	font-size: 95%
+}
+
+.press-links {
+	-webkit-transition: border 1s ease-out;
+	-moz-transition: border 1s ease-out;
+	-o-transition: border 1s ease-out;
+	transition: border 1s ease-out;
+	border: 6px solid rgb(153 173 166);
+}
+
+.press-links:hover {
+	border: 6px solid black;
+}
+
+footer {
+	font-size: 75%;
+	color: black;
+	float: right;
 }
 
 /* Write all remaining styles here */
