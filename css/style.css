@@ -2,12 +2,21 @@
 
 /* link the web font used for the level 1 heading here */
 @font-face {
-  font-family: "myFirstFont";
-  src: url("../fonts/Baskerville.ttc");
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
 }
 
 h1 {
-  font-family: "myFirstFont";
+  font-family: 'Baskerville';
+	font-size: 400%;
+	color: #9BABA6;
+	font-weight: 400;
+  padding: 10px 0;
+  margin: 0;
+}
+
+h2 {
+	color: #717A75;
 }
 
 /*////////// Global Styles //////////*/
@@ -26,3 +35,8 @@ body {
 }
 
 /* Write all remaining styles here */
+
+p#last {
+	text-align: right;
+	font-size: 80%;
+}
