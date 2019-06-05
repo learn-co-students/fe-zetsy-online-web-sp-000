@@ -8,7 +8,7 @@
 
 h1 {
   font-family: 'Baskerville';
-	font-size: 400%;
+	font-size: 500%;
 	color: #9BABA6;
 	font-weight: 400;
   padding: 10px 0;
@@ -39,4 +39,18 @@ body {
 p#last {
 	text-align: right;
 	font-size: 80%;
+}
+
+img {
+	border-style: solid;
+  border-width: 5px;
+	border-color: #9BABA5;
+}
+
+img#first:hover {
+  border-color: #818181;
+}
+
+h1:hover {
+	color: #818181;
 }
