@@ -42,6 +42,10 @@ h2 {
 	font-size: 2em;
 }
 
+#press {
+		margin-bottom: 20px;
+}
+
 #press img:hover {
 	border: 5px solid black;
 }
@@ -49,6 +53,7 @@ h2 {
 footer {
 	/* float: right; */
 	text-align: right;
+	font-size: .8em;
 }
 
 p {
@@ -58,48 +63,6 @@ p {
 a{
 	text-decoration: none;
 }
-
-
-/*
-
-
-/*
-header a {
-	color: rgb(152,173,166);
-	text-decoration: none;
+a:hover{
+	text-decoration:underline;
 }
-
-header a:hover {
-	color: rgb(111,127,122);
-}
-
-#featured img {
-	border: 5px rgb(152,173,166) solid;
-}
-
-#featured a {
-	color: #1783bb;
-	text-decoration: none;
-}
-
-#featured a:hover {
-	text-decoration: underline;
-}
-
-#press {
-	margin-bottom: 20px;
-}
-
-#press img {
-	border: 5px #ccc solid;
-	padding: 1px;
-}
-
-#press img:hover {
-	border: 5px rgb(111,127,122) solid;
-}
-
-footer {
-	text-align: right;
-	background: #fff;
-} */
