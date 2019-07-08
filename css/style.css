@@ -31,5 +31,51 @@ h2 {
 	font-size: 2em;
 }
 
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
 
-/* Write all remaining styles here */
+
+/*////////// Section Styles //////////*/
+
+h1 a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: rgb(111,127,122);
+}
+
+h1 + img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+a.featured {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+ a.featured:hover {
+	text-decoration: underline;
+}
+
+.press {
+	margin-bottom: 20px;
+}
+
+.press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+.press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
