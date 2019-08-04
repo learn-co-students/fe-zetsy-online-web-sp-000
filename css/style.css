@@ -3,15 +3,19 @@
 h1 {
   font-family: baskerville;
   font-size: 80px;
-  color: #669999;
-  border-bottom: 1px solid #669999;
+  color: #98ADA6;
+  border-bottom: 1px solid #98ADA6;
   margin: 5px;
   }
+  
+h1:hover {
+  color: #669999;
+}
   
 h2 {
   font-family: baskerville;
   font-size: 32px;
-  color: #669999;
+  color: #98ADA6;
 }
 /* link the web font used for the level 1 heading here */
 
@@ -35,7 +39,7 @@ body {
 /* Write all remaining styles here */
 
 .main {
-  border: 5px solid #669999;
+  border: 5px solid #98ADA6;
   padding: 0px;
   color: red;
 }
@@ -45,5 +49,5 @@ body {
 }
 
  a img:hover {
-  color: red;
+   border: 5px solid #98ADA6;
 }
