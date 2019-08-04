@@ -40,10 +40,10 @@ body {
   color: red;
 }
 
-.more img{
+ a img{
   border: 5px solid gray ;
 }
 
-.more img:hover {
-  color: black;
+ a img:hover {
+  color: red;
 }
