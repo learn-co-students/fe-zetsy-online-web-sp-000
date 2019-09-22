@@ -36,14 +36,29 @@ h2 {
 	color: rgb(111,127,122);
 }
 
-.logos {
-  text-align: center;
+#press {
+  margin-bottom: 20px;
+}
+
+#press img {
+  border: solid;
+  border-width: 5px;
+  color: transparent;
+  margin: 1px;
+}
+
+.featured-image {
+  border: solid;
+  border-color: rgb(152,173,166);
+}
+
+#press img:hover {
+  border: solid;
+  border-width: 5px;
+  color: rgb(152,173,166);
 }
 
 #credits {
   text-align: right;
-}
-
-img:hover {
-  border: solid;
+  font-size: 0.8em;
 }
