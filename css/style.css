@@ -17,10 +17,19 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+img[alt="necklace"]{
+	border: 5px solid;
+	border-color: rgb(190, 193, 193);
+}
 .img {
 	display: inline-block;
 	align-items: center;
-	width: auto;
-	border: 1px;
+	border: 5px solid;
+	border-color: rgb(190, 193, 193);
+}
+h1 {
+	font-size: 60px;
+}
+h1, h2 {
+	color: grey;
 }
