@@ -18,3 +18,40 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#zesty {
+  font-size: 400%;
+  color: #D3D3D3;
+  margin: 10px;
+}
+
+#main-img {
+ border:5px solid #939393;
+}
+
+.head-font {
+  font-size: 250%;
+  color: #939393;
+}
+
+p {
+  font-size: 100%;
+  color: #939393;
+}
+
+.box-img {
+  border:5px solid #939393;
+  /*-webkit-transition: border 2s ease-out;*/
+  /*-moz-transition: border 2s ease-out;*/
+  /*-o-transition: border 2s ease-out;*/
+  /*transition: border 2s ease-out;*/
+}
+
+.box-img:hover {
+  border:5px solid #3f3f3f;
+  cursor: pointer;
+}
+
+.right {
+  text-align: right;
+}
