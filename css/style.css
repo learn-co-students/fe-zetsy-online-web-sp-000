@@ -14,7 +14,36 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 45px 40px;
 }
 
 /* Write all remaining styles here */
+#footer {
+  float: right;
+  font-size: 0.8em;
+}
+
+.image {
+  border: 5px rgb(152,173,166) solid;
+}
+
+#heading {
+  color: rgb(152,173,166);
+  text-decoration: none;
+}
+#large {
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  font-size: 32px;
+}
