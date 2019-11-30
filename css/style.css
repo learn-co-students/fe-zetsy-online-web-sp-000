@@ -1,6 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: 'Bakersville';
+  src: url(../fonts/Bakersville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -18,3 +22,26 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: 'Bakersville', serif;
+  
+  
+  
+}
+h2 {}
+p {}
+.small {}
+
+
+#press a {
+  margin-bottom: 20px;
+}
+
+#press img:hover {border 5px rgb(111,127,122) solid;}
+
+#press img{
+  border: 5px #ccc solid;
+  padding: 1px;
+  
+}
