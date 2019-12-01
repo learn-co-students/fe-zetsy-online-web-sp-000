@@ -8,6 +8,8 @@
 
 /*////////// Global Styles //////////*/
 
+* {padding: 0; margin: 0;}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -29,11 +31,10 @@ h1 {
   font-size: 5em;
   font-weight: normal;
   font-family: 'Baskerville', serif;
-  border-bottom 1px solid #ccc;
-  
-  
+  border-bottom: 1px solid #ccc;
   
 }
+  
 h2 {}
 p {}
 .small {}
@@ -43,7 +44,7 @@ p {}
   margin-bottom: 20px;
 }
 
-#press img:hover {border 5px rgb(111,127,122) solid;}
+#press img:hover {border: 5px rgb(111,127,122) solid;}
 
 #press img{
   border: 5px #ccc solid;
