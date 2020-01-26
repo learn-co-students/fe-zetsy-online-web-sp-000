@@ -8,7 +8,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -16,21 +16,14 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
-}
-
-/* Write all remaining styles here */
-
-.wrappr::before{
-  padding: 0px;
-  margin: 0px;
-  height: 0px;
-  
+	height: 100vh;
 }
 
 header h1 {
   font-family: Baskerville;
   color: #99aba5;
   font-size: 6em;
+  margin: 0 0 5px;
 }
 main h2, main h3 {
   color: #727d7a;
