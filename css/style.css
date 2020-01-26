@@ -1,13 +1,14 @@
 /*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -15,6 +16,43 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	height: 100vh;
 }
 
-/* Write all remaining styles here */
+header h1 {
+  font-family: Baskerville;
+  color: #99aba5;
+  font-size: 6em;
+  margin: 0 0 5px;
+}
+main h2, main h3 {
+  color: #727d7a;
+}
+
+main img {
+  border: 5px solid #9aaaa5;
+}
+
+aside img {
+ background: 5px solid #cccccc;  
+
+}
+
+aside img:hover {
+  border: 5px solid #717f7a;
+}
+
+
+footer p {
+  color: #727d7a;
+  text-align: right;
+}
+
+.plain {
+	color: #538dc4;
+	text-decoration: none;
+}
+
+.plain:hover {
+	text-decoration: underline;
+}
