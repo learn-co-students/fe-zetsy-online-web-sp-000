@@ -2,9 +2,13 @@
 
 /* link the web font used for the level 1 heading here */
 h1.heading {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
 	font-family: Baskerville;
-	font-size: 6em;
+	font-weight: normal;
+	font-size: 5em;
 	color: rgb(152, 173, 166);
+	border-bottom: 1px solid #ccc;
 }
 
 h2.sub-heading-1 {
@@ -17,6 +21,9 @@ h2.sub-heading-2 {
 	color: rgb(152, 173, 166);
 }
 /*////////// Global Styles //////////*/
+img.main-image {
+	border: 5px rgb(152, 173, 166) solid;
+}
 
 body {
 	background: #F3EBE9;
@@ -32,3 +39,43 @@ body {
 }
 
 /* Write all remaining styles here */
+p {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+}
+
+p .learn-more {
+	color: #4682b4;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+ }
+ #press img:hover {
+	transition: all 0.8s ease;
+	border-color: #555;
+}
+
+.copyright {
+	color: #555;
+	font-size: 0.8em;
+}
+
+
+
