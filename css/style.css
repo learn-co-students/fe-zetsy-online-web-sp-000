@@ -1,7 +1,21 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+h1.heading {
+	font-family: Baskerville;
+	font-size: 6em;
+	color: rgb(152, 173, 166);
+}
 
+h2.sub-heading-1 {
+	font-size: 2em;
+	color: rgb(152, 173, 166);
+}
+
+h2.sub-heading-2 {
+	font-size: 2em;
+	color: rgb(152, 173, 166);
+}
 /*////////// Global Styles //////////*/
 
 body {
