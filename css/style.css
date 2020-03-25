@@ -11,10 +11,34 @@ body {
 }
 
 .wrapper {
-	width: 960px;
+	width: 760px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+h1 {
+	color: rgb(155, 172, 165);
+	margin-bottom: 5px;
+}
+
+.necklace {
+	/*display: block;*/
+	width: 100%;
+	margin: 0 auto;
+	border: 2px solid green;
+}
+
+
+.press-logo {
+	width: 24%;
+	border: 2px solid grey;
+}
+
+footer {
+	text-align: right;
+}
+
+
+
