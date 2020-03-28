@@ -15,6 +15,41 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	color :#727A75;
 }
 
-/* Write all remaining styles here */
+h1 {
+	color: #9FABA6;
+	font-size: 50px;
+	margin: auto;
+}
+
+ img {
+	border: 5px solid #9FABA6;
+}
+
+footer {
+	text-align: right;
+	font-size: 50%;
+	
+}
+
+
+a > img:hover {
+	border: 5px solid grey;
+}
+
+
+/* Write all remaining styles here
+1. style h1/header 159 171 166
+2. need to add background to the main image
+	- may need to size/center the image
+2. need to add section ids for formatting
+3. style the h2 - about
+4. style the h2 - press
+5. add borders (maybe size) 
+6. position the footer to the bottom right
+7. margin/size the body
+8. add grey margins
+9. confirm fonts
+*/
