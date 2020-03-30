@@ -19,5 +19,17 @@ body {
 
 /* Write all remaining styles here */
  h1 {
-	color: #808080
+	color: #808080;
+}
+
+h2 {
+ color: #808080;
+}
+
+img{ 
+	transition:
+	linear;}
+
+img:hover{
+	width: 250px;
 }
