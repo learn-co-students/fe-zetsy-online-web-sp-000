@@ -1,7 +1,17 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face { 
+	font-family: "Baskerville-Bold";
+	src: url('fonts/Baskerville-Bold-01.ttf') format('truetype');
+	src: local("fonts/Baskerville-Bold-01.ttf");
+}
 
+@font-face { 
+	font-family: "Baskerville-04";
+	src: url('fonts/Baskerville-04.ttf') format('truetype');
+	src: local("fonts/Baskerville-04.ttf");
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -17,4 +27,18 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+#main-title {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 50px;
+	color: lightgray;
+}
+
+#necklace {
+	border-style: solid;
+	border-width: 5px;
+	border-color: lightgray;
+}
+
+h2 {
+	color: lightgray;
+}
