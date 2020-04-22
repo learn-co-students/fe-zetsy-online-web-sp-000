@@ -17,4 +17,39 @@ body {
 	padding: 0 45px 20px;
 }
 
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+h1 {
+	color: rgb(152,173,166);
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+	display: block;
+	color: rgb(111, 127, 122);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111, 127, 122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+
 /* Write all remaining styles here */
