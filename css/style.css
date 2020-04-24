@@ -68,5 +68,10 @@ footer {
 
 #Press img {
 	border: 5px #ccc solid;
-    padding: 1px
+	padding: 1px
 }
+
+#Press img:hover {
+	border: 3px solid rgb(22, 223, 122);
+	transition: border 2s ease-out;
+	}
