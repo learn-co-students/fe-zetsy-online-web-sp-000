@@ -19,6 +19,10 @@ body {
 
 /* Write all remaining styles here */
 
+#article img {
+	border: 5px #6f7f7a solid;
+}
+
 h1, h2 {
 	color: #6f7f7a;
 }
