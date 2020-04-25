@@ -13,8 +13,32 @@ body {
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+	background: #FFF;
+	padding: 20px 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+h1, h2 {
+	color: #6f7f7a;
+}
+
+#press a {
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+}
+
+#press img:hover {
+	border: 5px #6f7f7a solid;
+	transform: scale(1.5);
+  }
+
+#footer {
+	text-align: right;
+	margin: 0px;
+}
+
+#press { 
+	margin-bottom: 20px;
+}
