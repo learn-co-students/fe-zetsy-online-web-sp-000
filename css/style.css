@@ -8,6 +8,8 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	margin: center; 
+	color: rgb(159, 173, 168);
 }
 
 .wrapper {
@@ -18,3 +20,28 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+	font-size: 480%;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 250%;
+	margin-bottom: 0;
+}
+
+img#featured {
+	border: 4px solid rgb(159, 173, 168);
+}
+
+img.press {
+	border: 4px solid rgb(194, 194, 193);
+}
+
+footer {
+	float: right;
+}
+
+body p {
+	color: rgb(128, 128, 146);
+}
