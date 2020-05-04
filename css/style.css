@@ -11,6 +11,11 @@
 
 /*////////// Global Styles //////////*/
 
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -22,11 +27,11 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
-  border: 5px rgb(152,173,166) solid;
+  /*border: 5px rgb(152,173,166) solid;*/
 }
 
 h1 {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 	margin: 0 0 5px;
 	font-size: 5em;
 	font-weight: normal;
@@ -45,7 +50,7 @@ p  {
 	margin: 0 0 20px 0;
 }
 
-.footer {
+.small {
   font-size: 0.8em;
 }
 
@@ -60,7 +65,7 @@ header a:hover {
 	color: rgb(111,127,122);
 }
 
-#pic-sec {
+#pic-sec img{
   border: 5px rgb(152,173,166) solid;
   color: #1783bb;
   text-decoration: none;
@@ -88,7 +93,7 @@ header a:hover {
 	border: 5px rgb(111,127,122) solid;
 }
 
-.footer {
+footer {
 	text-align: right;
 	background: #fff;
 }
