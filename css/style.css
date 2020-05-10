@@ -1,8 +1,17 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+header a {
+    color: rgb(152,173,166);
+    text-decoration: none;
+}
 
+a {
+    background: transparent;
+}
 /*////////// Global Styles //////////*/
+
+
+
 
 body {
 	background: #F3EBE9;
@@ -18,3 +27,55 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#featured img {
+    border: 5px rgb(152,173,166) solid;
+}
+
+#press img {
+  border: 5px rgb(152,173,166) solid;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+body {
+    font-size: 100%;
+    font-family: 'Times New Roman', serif;
+}
+
+.small {
+    font-size: 0.8em;
+}
+element {
+}
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+body {
+    font-size: 100%;
+    font-family: 'Times New Roman', serif;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+element {
+}
+footer {
+    text-align: right;
+    background: #fff;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+body {
+    font-size: 100%;
+    font-family: 'Times New Roman', serif;
+}
