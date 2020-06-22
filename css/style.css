@@ -18,3 +18,32 @@ body {
 }
 
 /* Write all remaining styles here */
+h1{
+	font-family: 'Baskerville', serif;
+	font-weight: lighter;
+	color: #a0aca8;
+	font-size: 60px;
+}
+
+h2{
+	color: #727e7a;
+}
+.image{
+	border: solid #9aada7 5px;
+	
+}
+
+a{
+	text-decoration: none;
+	color: #3c7ca2;
+}
+.press_link{
+	border: solid 5px #cccccc;
+}
+
+.press_link:hover, .press_link:active{
+	border: solid 5px #74807c;
+}
+footer > p{
+	right: 0px;
+}
