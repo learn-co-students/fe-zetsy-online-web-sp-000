@@ -18,3 +18,43 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-weight: lighter;
+  color: #9baca6;
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 3px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #9baca6;
+}
+
+.main_image {
+  border: 5px solid #9baca6;
+}
+
+h2 {
+  color: #6d7c77;
+}
+
+p {
+  color: #6d7c77;
+}
+
+.learn_more {
+  text-decoration: none
+}
+
+.press_img {
+  border: 3px solid #9baca6;
+}
+
+.press_img:hover {
+  border: 3px solid #444e4b;
+  cursor: pointer;
+}
+
+.copyright {
+  float: right;
+  font-size: 8px;
+}
