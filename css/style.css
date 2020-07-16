@@ -15,6 +15,38 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	color: #9baaa5;
 }
 
 /* Write all remaining styles here */
+h1 {
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.bordered-pic{
+  border: 5px solid #9baaa5;
+}
+
+p {
+  color: black;
+}
+
+h2{
+  color: #6f7f7a;
+  font-size: 35px;
+}
+
+.logo-picture{
+  transition: border;
+  border: 4px solid #cccccc;
+}
+
+.logo-picture:hover{
+  border: 4px solid black;
+}
+
+.copyright{
+  text-align: right;
+  font-size: 12px;
+}
