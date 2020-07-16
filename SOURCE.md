@@ -7,6 +7,7 @@ Zetsy
 <!-- level 2 header -->
 About
 
+
 <!-- paragraph -->
 Mary Wanesia is a jeweler, an Arizona native, and a member of the Navajo tribe. She specializes in creating beautiful, contemporary takes on the traditional adornments worn by the Navajo in ceremonies and in daily life.
 
