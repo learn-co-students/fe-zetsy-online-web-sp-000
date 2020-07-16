@@ -18,3 +18,32 @@ body {
 }
 
 /* Write all remaining styles here */
+
+* {
+  color: #86948f;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+img {
+  border: 4px solid #9caba6;
+}
+
+#press-images {
+  margin: 0 auto;
+}
+
+p#details {
+  text-align: right;
+}
+
+#press-images img {
+  transition: border .5s ease;
+}
+
+#press-images img:hover {
+  border: 5px solid #49504e;
+}
