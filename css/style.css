@@ -3,6 +3,9 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+* {
+  box-sizing: border-box;
+}
 
 body {
 	background: #F3EBE9;
@@ -12,9 +15,69 @@ body {
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
+	margin: 20px auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 20px;
 }
+
+h1, h3{
+  font-weight: normal;
+  color:#ccc;
+}
+
+.center-image{
+  border-style: solid;
+  border-color: #ccc;
+  max-width: 100%
+
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column-1 {
+  float: left;
+  width: 20%;
+  height: 850px; /* Should be removed. Only for demonstration */
+  background-color:#ccc;
+}
+
+.mid-column {
+  float: left;
+  width: 60%;
+  padding: 20px;
+  height: 750px; /* Should be removed. Only for demonstration */
+  background-color:#FFFAFA;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p-mid-column{
+  font-size: 12px;
+}
+
+.mid-bottom-figures{
+  float: left;
+  border-style: solid;
+  border-color: #ccc;
+  margin-right: 2px;
+  width: 23%;
+}
+
+.mid-bottom-figures:hover {
+  border-style: bold;
+  border-color: black;
+}
+
+
+
+
+
 
 /* Write all remaining styles here */
