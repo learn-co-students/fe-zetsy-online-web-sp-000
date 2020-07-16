@@ -1,5 +1,22 @@
 /*////////////// Fonts //////////////*/
 
+h1 {
+  font-family: baskerville;
+  font-size: 80px;
+  color: #98ADA6;
+  border-bottom: 1px solid #98ADA6;
+  margin: 5px;
+  }
+  
+h1:hover {
+  color: #669999;
+}
+  
+h2 {
+  font-family: baskerville;
+  font-size: 32px;
+  color: #98ADA6;
+}
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -17,4 +34,20 @@ body {
 	padding: 0 45px 20px;
 }
 
+
+
 /* Write all remaining styles here */
+
+.main {
+  border: 5px solid #98ADA6;
+  padding: 0px;
+  color: red;
+}
+
+ a img{
+  border: 5px solid gray ;
+}
+
+ a img:hover {
+   border: 5px solid #98ADA6;
+}
