@@ -14,7 +14,36 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0 45px 60px;
 }
+
+a img {
+	padding:1px;
+	border:4px solid rgb(204,204,204);
+ }
+
+ a img:hover {
+	 border-color: rgb(63, 71, 69)
+ }
+
+ .title {
+	 color: rgb(111, 127, 122);
+ }
+
+ h1 {
+	font-size: 5em;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+ }
+
+ h2.title {
+	 font-size: 2em;
+ }
+
+ #copyright {
+	 float: right;
+	 font-size: .8em;
+ }
 
 /* Write all remaining styles here */
