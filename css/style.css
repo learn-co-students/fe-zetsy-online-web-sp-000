@@ -15,6 +15,38 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	overflow: auto;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: #9eafa9;
+	font-size: 400%;
+}
+
+h2 {
+	color: #777b74;
+}
+
+img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #cccccc;
+}
+
+img[alt="turquoise necklace"] {
+	border-color: #9eafa9;
+}
+
+#copy {
+	float: right;
+}
+
+.press {
+	transition: border-color 0.5s ease;
+}
+
+.press:hover {
+	border-color: #727e7a;
+}
