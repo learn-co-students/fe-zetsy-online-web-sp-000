@@ -45,6 +45,7 @@ p {
 footer {
 	float: right;
 	margin: 20px;
+	padding: 20px;
 	font-size: 1em;
 	color: grey;
 }
