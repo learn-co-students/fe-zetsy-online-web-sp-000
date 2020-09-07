@@ -2,19 +2,122 @@
 
 /* link the web font used for the level 1 heading here */
 
+
+* {
+margin: 0;
+padding: 0;
+}
+
+h1 {
+font-family: 'Baskerville', serif;
+/*position: relative;
+top: -54px;*/
+font-size: 80px;
+color: rgb(156, 172, 167);
+border-bottom: 1px solid rgb(204, 204, 204);
+padding-bottom: 10px;
+margin-top: 0px;
+
+}
+
+h1.title span:hover {
+color: rgb(111,127,122);
+}
+
+h2 { 
+	font-size: 32px;
+	color: rgb(114, 127, 122);
+	padding: 20px 0px;
+	
+}
+
+p {
+
+/*top: -102px;*/
+color: rgb(85, 85, 85);
+font-size: 16px;
+padding-bottom: 15px;
+padding-top: 6px;
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
-}
+	
+	
+} 
 
 .wrapper {
+	position: absolute;
+	display: block;
+	overflow: auto;
+	right:0;
+	left:0;
 	width: 960px;
 	margin: 0 auto;
+	/*margin-bottom: -87px;*/
 	background: #fff;
 	padding: 0 45px 20px;
 }
+
+.necklace { 
+	width: 950px; 
+	height: 473px; 
+	border: 5px solid rgb(156, 172, 167);
+	margin-top: -49px;
+	margin-bottom: 7px;
+
+	
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(60, 130, 182);
+	  }
+
+a:hover {
+	text-decoration: underline; 
+} 
+
+.press-images img { 
+	border: 5px solid rgb(204, 204, 204);
+	padding: 1px;
+	 
+
+
+}
+
+.press-images img:hover { 
+	border-color: rgb(111,127,122);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright-info p{ 
+text-align: right;
+font-size: .8em;
+color: rgb(85, 85, 85);
+padding-top: 19px;
+padding-bottom: 20px;
+}
+
+
+
+
 
 /* Write all remaining styles here */
