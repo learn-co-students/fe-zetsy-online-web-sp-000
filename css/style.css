@@ -15,6 +15,28 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	
 }
 
 /* Write all remaining styles here */
+h1 {
+	padding: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: heavy;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+	color: rgb(132, 156, 160);
+}
+
+h2 {
+	padding-bottom: 10px;
+	color: rgb(132, 156, 160);
+}
+
+img {
+	 border: 5px rgb(152,173,166) solid;
+	 margin-right: auto;
+	 margin-left: auto;
+	}
+}
