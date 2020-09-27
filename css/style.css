@@ -1,6 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: Baskerville;
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -15,6 +19,55 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	color: #555
+}
+
+h1 {
+	color: rgb(111,127,122);
+
 }
 
 /* Write all remaining styles here */
+.logo {
+	color: rgb(111,127,122);
+	font-family: Baskerville;
+	font-size: 5em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.picturebanner {
+	border: 5px rgb(152,173,166) solid;
+}
+
+.presscontainer {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.presslogo {
+	border: 5px #ccc solid;
+	width: 23.5%;
+}
+
+.presslogo img {
+	width: 100%;
+	height: 100%;
+	/*theres a bit of white on the bottom of the container for some reason. really fucking annoying
+	i thought normalize would get rid of such mess but it doesnt..*/
+	/*apparently doing height 100% helps with that*/
+}
+
+footer span {
+	float: right;
+	font-size: 0.8em;
+	/*span inline so it can't have padding or margin or something. dont remember*/
+}
+
+footer {
+		padding-top: 20px;
+	padding-bottom: 40px;
+
+}
