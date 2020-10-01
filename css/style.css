@@ -17,4 +17,42 @@ body {
 	padding: 0 45px 20px;
 }
 
+.logo {
+  border: 5px solid;
+  border-color: #CBCDCC;
+}
+
+.necklace{
+  border: 5px solid;
+  border-color: #9CADA7;
+}
+
+.about {
+  color: #717670;
+  font-size: 2em;
+}
+
+.press {
+  color: #717670;
+  font-size: 2em;
+}
+
+.copy {
+  font-size: .8em;
+  text-align: right;
+}
+
+h1 {
+  color: #9FAEA9;
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin: 0 0 5px;
+}
+
+
+
+
 /* Write all remaining styles here */
