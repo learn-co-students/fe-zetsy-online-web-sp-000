@@ -3,6 +3,10 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+* {
+	padding:0;
+	margin:0;
+}
 
 body {
 	background: #F3EBE9;
@@ -18,3 +22,12 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+}
