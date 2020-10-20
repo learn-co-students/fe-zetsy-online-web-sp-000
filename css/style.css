@@ -8,6 +8,7 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	
 }
 
 .wrapper {
@@ -15,6 +16,80 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: #9caca6;
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	padding: 10px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 5px;
+	/* transition-property: color; */
+	
+}
+
+/* header {
+	border-bottom: 1px solid #cccccc;
+} */
+
+/* #content {
+	border-top: 1px solid #cccccc;
+	
+} */
+
+h2 {
+	color: #727e7a;
+}
+
+p {
+	color: #555555;
+}
+
+img {
+	border: 5px solid #9caca6;
+}
+
+#press img {
+	padding: 1px;
+	border-color: #cccccc;
+}
+
+#press img:hover {
+	border-color: #6f7f7a;
+}
+
+.small {
+	text-align: right;
+	font-size: 0.8em;
+}
+
+/* a {
+	transition: color, border;
+	text-decoration: none;
+} */
+
+header a:hover {
+	/* border-color: #6f7f7a; */
+	color: #6f7f7a;
+} 
+
+header a {
+	text-decoration: none;
+	color: #9caca6;
+	/* transition-property: color; */
+}
+
+#content a {
+	text-decoration: none;
+	color: #3a82b6;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+/* Lots of commented out wrong code, huh */
