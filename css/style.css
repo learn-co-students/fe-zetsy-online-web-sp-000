@@ -17,4 +17,67 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+
+h1 {
+	width: fit-content;
+	padding-bottom: 10px; 
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'baskerville', serif;
+	border-bottom: 2px solid #CCC; 
+	
+}
+
+h2 {
+	width: fit-content;
+	font-size: 2em;
+	color: #5D6C67;
+}
+
+p {
+	width: fit-content;
+	font-size: 1em;
+	color: #5D6C67;
+}
+
+header h1 a {
+	width: fit-content;
+	color: #98ADA6;
+	text-decoration: none; 
+}
+
+header a:hover {
+	color: #6F7F7A;
+}
+
+.about img {
+  border: 5px solid #98ADA6;
+}
+
+.press {
+	margin-bottom: 10px;
+}
+
+.press div {
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+
+.press img {
+	border: 5px solid #F3EBE9;
+	padding: 1px;
+}
+
+.press img:hover {
+	border: 5px solid #6F7F7A;
+}
+
+footer p {
+	text-align: right;
+	font-size: 0.75em;
+}
+
+.column{
+	display: block;
+}
