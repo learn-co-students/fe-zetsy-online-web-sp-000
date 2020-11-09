@@ -17,4 +17,20 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+a {
+	text-decoration: none;
+}
+
+img 
+
+.item {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #9CAFA9;
+}
+
+.link {
+	border-style: solid;
+	border-color: #D5D6D6;
+	margin: 2px;
+}
