@@ -1,6 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face{
+	font-family : "CustomFont";
+	src : "Baskerville.ttc"
+}
 
 /*////////// Global Styles //////////*/
 
@@ -18,3 +22,28 @@ body {
 }
 
 /* Write all remaining styles here */
+
+.wrapper {
+	padding-left: 20%;
+	padding-right: 20%;
+	background-color: deepskyblue;
+}
+
+h1 {
+	color: aqua;
+	size: 60px;
+	font-family: 'Baskerville';
+}
+
+h2 {
+	color: darkcyan;
+}
+
+#topaz {
+	align-self: center;
+	border: 5px;
+}
+
+#bottom{
+	float: left;
+}
