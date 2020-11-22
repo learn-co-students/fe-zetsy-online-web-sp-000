@@ -1,13 +1,12 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-header {
-	color: rgb(152,173,166);
-	font-size: 2em;
-	text-decoration: none;
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
 }
-
 /*////////// Global Styles //////////*/
+
 
 body {
 	background: #F3EBE9;
@@ -22,6 +21,20 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1 {
+	font-family: 'bakerville'; serif;
+	font-size: 4em;
+	font-weight: normal;
+	margin: 0 0 5px;
+}
+
+header {
+	color: rgb(152,173,166);
+	font-size: 2em;
+
+	text-decoration: none;
+}
+
 #necklace img {
 	border: 5px rgb(152,173,166) solid;
 }
@@ -33,8 +46,9 @@ body {
 }
 
 #copyright {
-	float: right;
+	text-align: right;
 	font-size: 0.8em;
+	color: rgb(152,173,166);
 }
 
 /* Write all remaining styles here */
