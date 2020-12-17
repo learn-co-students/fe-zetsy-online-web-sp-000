@@ -15,6 +15,46 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	/* extend white background to bottom*/
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(160,176,170);
+	font-family: Baskerville, serif;
+	font-size: 80px;
+	margin: auto;
+}
+
+hr#divider {
+  border-top: 1px solid #bbb;
+}
+
+div#necklace img {
+  border: 5px solid rgb(160,176,170);
+}
+
+h2 {
+	color: rgb(111, 126, 119);
+	font-size: 32px;
+}
+
+p {
+	color: #555;
+}
+
+div.wrapper p:last-child {
+	float: right;
+	margin: 0, 0, 20px;
+	font-size: 12.8px;
+}
+
+div.press img{
+	border: 5px solid rgb(207,205,206);
+	/* remove line in between images */
+}
+
+div.press img:hover{
+	border: 5px solid rgb(111, 126, 119);
+}
