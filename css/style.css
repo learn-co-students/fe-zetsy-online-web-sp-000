@@ -1,7 +1,13 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+header {
+	background-color: transparent;
+	color: rgb(152,173,166);
+	font-family: 'Baskerville', serif;
+	font-size: 300%;
+	border-bottom: 1px solid #ccc;
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +24,47 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h2 { 
+	color: rgb(108,128,122);
+	font-size: 200% ;
+}
+
+p {
+	color: rgb(85,85,85);
+	font-size: 1em;
+}
+
+footer {
+	color: rgb(85,85,85);
+	font-size: 100%;
+	text-align: right;
+}
+
+.necklace {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border-style: solid;
+	border-width: thick;
+	border-color: rgb(147,175,166);
+}
+
+.NMAI, .NYT, .sedona, .bergdof {
+	border-style: solid;
+	border-width: 5px;
+	padding: 1px;
+	border-color: rgb(204,204,204);
+}
+
+.column {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+	
+  
