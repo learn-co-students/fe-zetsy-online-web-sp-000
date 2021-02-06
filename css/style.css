@@ -18,3 +18,31 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+    color: rgb(152,173,166);
+    font-size: 500%;
+}
+
+.main-image{
+  border-color: rgb(152,173,166);
+  border-style: solid;
+  border-width: 5px;
+}
+
+a img {
+  border-color: rgb(152,173,166);
+  border-style: solid;
+  border-width: 5px;
+  transition: border-color 2s;
+}
+
+a img:hover {
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+h2 {
+  color: rgb(152,173,166);
+}
