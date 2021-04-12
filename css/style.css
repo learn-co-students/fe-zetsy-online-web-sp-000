@@ -18,3 +18,22 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-size: 5em;
+  color: rgb(152,173,166);
+}
+
+h3 {
+  font-size: 2em;
+  color: rgb(152,173,166);
+}
+
+.HeaderImg {
+  border: 5px rgb(152,173,166);
+  border-style: solid;
+}
+
+.logos {
+  border: 5px #ccc solid;
+}
