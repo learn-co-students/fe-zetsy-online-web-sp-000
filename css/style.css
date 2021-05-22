@@ -15,6 +15,60 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	display: block;
+	align-content: center;
 }
+
+.main_title{
+	text-align: left;
+	font-size: 1.5cm;
+	color: #b6bfbb;
+}
+
+.necklace{
+	width: 100%;
+}
+
+.border_around_necklace{
+	width: 100%;
+	padding: 5px;
+	background-color: #9eaba6; 
+}
+
+.title_text{
+	text-align: left;
+	font-size: 0.7cm;
+	color: #899699;
+	font-weight: bold;
+}
+
+p {
+	color: #726967;
+}
+a {
+	color: #8884bd;
+}
+
+
+.border_around_img{
+	padding: 5px;
+	background-color: #b6bfbb;
+	display: inline-block;
+	width: 22%;
+}
+
+.img_item {
+	/*background: #F3EBE9;*/
+	opacity: 0.5;
+}
+
+.copyright_item{
+	display: block;
+	text-align: right;
+}
+
+
+
+
 
 /* Write all remaining styles here */
