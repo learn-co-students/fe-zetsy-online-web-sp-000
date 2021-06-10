@@ -18,3 +18,12 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1, h2, p{
+	color: gray;
+	padding-top: 1vh;
+}
+
+img{
+	border: 1px solid black;
+}
